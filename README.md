@@ -26,8 +26,6 @@ $ echo "export REPO_HOME=~/code" >> ~/.zshrc
 $ mkdir -p $REPO_HOME/github.com/codespider/scripts
 $ git clone https://github.com/codespider/scripts.git $REPO_HOME/github.com/codespider/scripts
 $ make install
-$ echo "alias rcd='cd \$(repo ls | fzf --height 10 --border)'\n" >> ~/.zshrc 
-
 ```
 
 Usage
