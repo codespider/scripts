@@ -8,6 +8,7 @@ python_version = "3.7"
 
 [packages]
 parse= '==1.11.1'
+pytest = "*"
 
 [dev-packages]
 pytest= '==4.3.0'

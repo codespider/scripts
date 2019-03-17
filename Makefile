@@ -19,6 +19,6 @@ update:
 	pipenv update
 
 install:
-	ln -sf ${CURDIR}/repo.py /usr/local/bin/repo
+	ln -sf ${CURDIR}/main.py /usr/local/bin/repo
 	chmod +x /usr/local/bin/repo
 	@echo "alias rcd='cd \$$(repo ls | fzf --height 10 --border)'\n" >> ~/.zshrc
